@@ -1,0 +1,31 @@
+{
+  "name": "dailydiaryservice",
+  "version": "1.0.0",
+  "description": "Backend service for Daily Diary App",
+  "main": "js/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node js/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanijalal/dailydiaryservice.git"
+  },
+  "keywords": [
+    "typescript",
+    "express",
+    "node"
+  ],
+  "author": "Abd Sani Bin Abd Jalal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanijalal/dailydiaryservice/issues"
+  },
+  "homepage": "https://github.com/sanijalal/dailydiaryservice#readme",
+  "dependencies": {
+    "@types/express": "^4.16.0",
+    "express": "^4.16.4",
+    "typescript": "^3.1.3"
+  }
+}
